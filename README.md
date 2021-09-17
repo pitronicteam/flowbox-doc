@@ -1,3 +1,2 @@
-# Flowbox-doc
+# Initial page
 
-Documents for FlowBox hardware
