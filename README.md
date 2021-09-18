@@ -2,7 +2,7 @@
 description: Documents for Flowbox hardware
 ---
 
-# home
+# Home
 
 Welcome to flowbox-doc, document for flowbox hardware.
 

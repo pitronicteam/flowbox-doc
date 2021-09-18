@@ -1,4 +1,4 @@
 # Table of contents
 
-* [home](README.md)
+* [Home](README.md)
 
