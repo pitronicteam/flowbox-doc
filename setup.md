@@ -22,25 +22,29 @@ You should choose the proper installer for you operating system that you are usi
 
 Now go to the Firmware Flasher tab. Turn on the "Show unstable releases" and "Expert Mode" buttons as shown:
 
+![](.gitbook/assets/flash-nightly.png)
+
 Select the "Development" branch, and choose "FLOWBOX" target from the dropdown manual or just type and search flowbox.
 
 Choose a build version. Here I choose \#2520 because it was the latest one.
 
-
+![](.gitbook/assets/choose-a-commit-version.png)
 
 Click the "Load firmware \[Online\]" button. Once download complete, hit the "Flash Firmware" button.
 
-
+![](.gitbook/assets/load-and-flash.png)
 
 Check the checkbox in front of "I have read the above and I assume full responsibility for flashing unstable firmware", then hit the "Flash" button.
 
-
+![](.gitbook/assets/take-resposibility-and-flash.png)
 
 Once the flashing progress is done, try to connect. The configurator will ask you whether apply the custom default. Click "Apply Custom Default" button.
 
-
+![](.gitbook/assets/apply-custom-defaults.png)
 
 Then reconnect, whola! It works!
+
+![](.gitbook/assets/it-works.png)
 
 ## Settings
 
@@ -56,10 +60,16 @@ In order to use flowbox as a motion recorder, there are few settings that you ca
 
 It is recommended to use a single PT3 @80Hz on gyroscope data for this application usage.
 
-Also, the dynamic notch filter could be useful for hard mounted, but this would request to config the motor protocol to be dshot 300.
+Also, the dynamic notch filter could be quite useful for hard mounted, but this would request to config the motor protocol to be dshot 300.
 
 ```
-settings (WIP)
+set gyro_lowpass_hz = 0
+set gyro_lowpass2_type = PT3
+set gyro_lowpass2_hz = 80
+
+set pid_process_denom = 1
+set motor_pwm_protocol = DSHOT300
+feature DYNAMIC_FILTER
 ```
 
 {% hint style="info" %}
