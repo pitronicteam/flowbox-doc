@@ -82,5 +82,23 @@ Don't forget to save the settings:
 save
 ```
 
+### Logging trace
+
+Since flowbox was used as a secondary FC which only the gyro data is need, we can simply disable other "useless" log traces in order to save flash space and reduce log size.
+
+```text
+set blackbox_disable_pids = ON
+set blackbox_disable_rc = ON
+set blackbox_disable_setpoint = ON
+set blackbox_disable_bat = ON
+set blackbox_disable_mag = ON
+set blackbox_disable_alt = ON
+set blackbox_disable_rssi = ON
+set blackbox_disable_acc = ON
+set blackbox_disable_debug = ON
+set blackbox_disable_motors = ON
+set blackbox_disable_gps = ON
+```
+
 ### TODO
 
