@@ -100,5 +100,13 @@ set blackbox_disable_motors = ON
 set blackbox_disable_gps = ON
 ```
 
+### Blackbox Mode
+
+If you didn't hook a receiver to flowbox, you can set the blackbox mode to ALWAYS, so when the flowbox was powered on, it will record "motion data" into blackbox automatically.
+
+```text
+set blackbox_mode = ALWAYS
+```
+
 ### TODO
 
