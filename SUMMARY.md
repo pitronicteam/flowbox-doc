@@ -1,5 +1,5 @@
 # Table of contents
 
 * [Home](README.md)
-* [Setup](setup.md)
+* [Basic Setup](basic-setup.md)
 

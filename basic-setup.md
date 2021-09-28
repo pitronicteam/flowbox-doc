@@ -1,4 +1,4 @@
-# Setup
+# Basic Setup
 
 ## Flash betaflight 4.3 or newer
 
@@ -52,9 +52,7 @@ In order to use flowbox as a motion recorder, there are few settings that you ca
 
 * Filter
 * Logging traces
-* Blackbox mode
 * Board orientation
-* Pinion input \(WIP\)
 
 ### Filters
 
@@ -100,13 +98,11 @@ set blackbox_disable_motors = ON
 set blackbox_disable_gps = ON
 ```
 
-### Blackbox Mode
+### Board orientation
 
-If you didn't hook a receiver to flowbox, you can set the blackbox mode to ALWAYS, so when the flowbox was powered on, it will record "motion data" into blackbox automatically.
+Based on your mounting, you should change the board orientation so for the board can record the correct motion data.
 
-```text
-set blackbox_mode = ALWAYS
-```
+![](.gitbook/assets/board-orientation.png)
 
 ### TODO
 
