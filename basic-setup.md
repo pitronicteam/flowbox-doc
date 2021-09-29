@@ -104,5 +104,3 @@ Based on your mounting, you should change the board orientation so for the board
 
 ![](.gitbook/assets/board-orientation.png)
 
-### TODO
-
