@@ -1,6 +1,6 @@
 # Advance settings
 
-## Trigger the record
+## Trigger the recording
 
 There are many ways to trigger the blackbox record, here we simply show you the mostly common used two ways.
 
@@ -9,5 +9,5 @@ There are many ways to trigger the blackbox record, here we simply show you the 
 
 ### Triggered by receiver
 
-TODO
+Betaflight can record blackbox when the FC was ARM. So you need to hook a serial receiver to one of the two UARTs, and set them up properly in betaflight configurator.
 

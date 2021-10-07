@@ -4,7 +4,7 @@ description: Documents for Flowbox hardware
 
 # Home
 
-Welcome to flowbox-doc, document for flowbox hardware.
+Welcome to flowbox-doc, documents and setup guide for flowbox hardware.
 
 Flowbox is an extremely simplified betaflight flight controller board that integrates the creativity and ideas of the community.
 
