@@ -15,7 +15,7 @@ Betaflight can record blackbox when the FC was ARM. So you need to hook a serial
 
 First of all is to hook the receiver to the flowbox.
 
-Flowbox has two UARTs, which support a lot of serial receiver \(not included SBUS protocol\) include CRSF, iBUS, SRXL, etc. The pads are shown as below:
+Flowbox has two UARTs, which support a lot of serial receiver (not included SBUS protocol) include CRSF, iBUS, SRXL, etc. The pads are shown as below:
 
 ![](.gitbook/assets/uarts.png)
 
@@ -31,5 +31,6 @@ Connect the flowbox to your PC, open betaflight configurator.
 
 ![](.gitbook/assets/select-protocol.png)
 
-TODO
+Then bind a AUX channel to ARM in Modes tab.
 
+TODO
